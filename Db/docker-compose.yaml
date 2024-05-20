@@ -1,0 +1,43 @@
+version: '3.3'
+
+services:
+  hash_container_db:
+    image: mysql:8.1.0
+    restart: always
+    container_name: hash_container_db
+    env_file:
+      - compose-variables.env
+    ports:
+      - "3357:3306"
+    expose:
+      - 3357
+    volumes:
+      - hash_volume_data:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./my.cnf:/etc/mysql/conf.d/my.cnf
+
+  phpmyadmin_container:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    container_name: phpmyadmin_container
+    links:
+      - hash_container_db
+    env_file:
+      - compose-variables.env
+    ports:
+      - "8081:80"
+
+#  sql_generator:
+#    image: python:3.8
+#    container_name: sql_generator
+#    volumes:
+#      - ./generate_sql.py:/generate_sql.py
+#      - ./content.json:/content.json
+#      - ./init.sql:/init.sql
+#    command: ["python", "/generate_sql.py"]
+#    depends_on:
+#      - hash_container_db
+
+volumes:
+  hash_volume_data:
+    #external: true

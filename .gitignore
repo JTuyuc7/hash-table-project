@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+/Db/compose-variables.env
+/Db/copia.json
+/Db/myenv
+/Db/init.sql

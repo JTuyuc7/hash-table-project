@@ -1,3 +1,4 @@
+
 {
   "departamentos": [
     {
@@ -6,15 +7,15 @@
       "municipios": [
         {
           "codigo": 1601,
-          "municipio": "Coban"
+          "municipio": "Cobán"
         },
         {
           "codigo": 1603,
-          "municipio": "San Cristobal Verapaz"
+          "municipio": "San Cristóbal Verapaz"
         },
         {
           "codigo": 1609,
-          "municipio": "San Pedro Carcha"
+          "municipio": "San Pedro Carchá"
         },
         {
           "codigo": 1602,
@@ -26,7 +27,7 @@
         },
         {
           "codigo": 1606,
-          "municipio": "Tucuru"
+          "municipio": "Tucurú"
         },
         {
           "codigo": 1610,
@@ -38,15 +39,15 @@
         },
         {
           "codigo": 1606,
-          "municipio": "San Miguel Tucuru"
+          "municipio": "San Miguel Tucurú"
         },
         {
           "codigo": 1608,
-          "municipio": "Senahu"
+          "municipio": "Senahú"
         },
         {
           "codigo": 1612,
-          "municipio": "Santa Maria Cahabon"
+          "municipio": "Santa María Cahabón"
         },
         {
           "codigo": 1613,
@@ -54,11 +55,11 @@
         },
         {
           "codigo": 1611,
-          "municipio": "Lanquin"
+          "municipio": "Lanquín"
         },
         {
           "codigo": 1607,
-          "municipio": "Panzos"
+          "municipio": "Panzós"
         },
         {
           "codigo": 1608,
@@ -72,15 +73,15 @@
       "municipios": [
         {
           "codigo": 1903,
-          "municipio": "Rio Hondo"
+          "municipio": "Río Hondo"
         },
         {
           "codigo": 1907,
-          "municipio": "Cabanas"
+          "municipio": "Cabañas"
         },
         {
           "codigo": 1615,
-          "municipio": "Fray Bartolome de las Casas"
+          "municipio": "Fray Bartolomé de las Casas"
         },
         {
           "codigo": 1614,
@@ -88,11 +89,11 @@
         },
         {
           "codigo": 1612,
-          "municipio": "Cahabon"
+          "municipio": "Cahabón"
         },
         {
           "codigo": 1605,
-          "municipio": "Tamahu"
+          "municipio": "Tamahú"
         },
         {
           "codigo": 1506,
@@ -100,7 +101,7 @@
         },
         {
           "codigo": 1501,
-          "municipio": "Salama"
+          "municipio": "Salamá"
         },
         {
           "codigo": 1502,
@@ -120,11 +121,11 @@
         },
         {
           "codigo": 1507,
-          "municipio": "San Jeronimo"
+          "municipio": "San Jerónimo"
         },
         {
           "codigo": 1507,
-          "municipio": "Purulha"
+          "municipio": "Purulhá"
         }
       ]
     },
@@ -138,11 +139,11 @@
         },
         {
           "codigo": 402,
-          "municipio": "San Jose Poaquil"
+          "municipio": "San José Poaquil"
         },
         {
           "codigo": 403,
-          "municipio": "San Martin Jilotepeque"
+          "municipio": "San Martín Jilotepeque"
         },
         {
           "codigo": 404,
@@ -154,11 +155,11 @@
         },
         {
           "codigo": 406,
-          "municipio": "Tecpan Guatemala"
+          "municipio": "Tecpán Guatemala"
         },
         {
           "codigo": 407,
-          "municipio": "Patzun"
+          "municipio": "Patzún"
         },
         {
           "codigo": 408,
@@ -166,11 +167,11 @@
         },
         {
           "codigo": 409,
-          "municipio": "Patzicia"
+          "municipio": "Patzicía"
         },
         {
           "codigo": 410,
-          "municipio": "Santa Cruz Balanya"
+          "municipio": "Santa Cruz Balanyá"
         },
         {
           "codigo": 411,
@@ -182,7 +183,7 @@
         },
         {
           "codigo": 413,
-          "municipio": "San Andres Itzapa"
+          "municipio": "San Andrés Itzapa"
         },
         {
           "codigo": 414,
@@ -216,7 +217,7 @@
         },
         {
           "codigo": 2002,
-          "municipio": "San Jose la Arada"
+          "municipio": "San José la Arada"
         },
         {
           "codigo": 2003,
@@ -224,11 +225,11 @@
         },
         {
           "codigo": 2004,
-          "municipio": "Jocotan"
+          "municipio": "Jocotán"
         },
         {
           "codigo": 2005,
-          "municipio": "Camotan"
+          "municipio": "Camotán"
         },
         {
           "codigo": 2006,
@@ -244,7 +245,7 @@
         },
         {
           "codigo": 2008,
-          "municipio": "Concepcion Las Minas"
+          "municipio": "Concepción Las Minas"
         }
       ]
     },
@@ -258,19 +259,19 @@
         },
         {
           "codigo": 202,
-          "municipio": "Morazan"
+          "municipio": "Morazán"
         },
         {
           "codigo": 203,
-          "municipio": "San Agustin Acasaguastlan"
+          "municipio": "San Agustín Acasaguastlán"
         },
         {
           "codigo": 204,
-          "municipio": "San Cristobal Acasaguastlan"
+          "municipio": "San Cristóbal Acasaguastlán"
         },
         {
           "codigo": 205,
-          "municipio": "El Jicaro"
+          "municipio": "El Jícaro"
         },
         {
           "codigo": 206,
@@ -296,7 +297,7 @@
         },
         {
           "codigo": 502,
-          "municipio": "Santa Lucia Cotzumalguapa"
+          "municipio": "Santa Lucía Cotzumalguapa"
         },
         {
           "codigo": 503,
@@ -304,7 +305,7 @@
         },
         {
           "codigo": 504,
-          "municipio": "Siquinala"
+          "municipio": "Siquinalá"
         },
         {
           "codigo": 505,
@@ -324,7 +325,7 @@
         },
         {
           "codigo": 509,
-          "municipio": "San Jose"
+          "municipio": "San José"
         },
         {
           "codigo": 510,
@@ -332,7 +333,7 @@
         },
         {
           "codigo": 511,
-          "municipio": "Palin"
+          "municipio": "Palín"
         },
         {
           "codigo": 512,
@@ -340,7 +341,7 @@
         },
         {
           "codigo": 513,
-          "municipio": "Nueva Concepcion"
+          "municipio": "Nueva Concepción"
         },
         {
           "codigo": 514,
@@ -362,11 +363,11 @@
         },
         {
           "codigo": 103,
-          "municipio": "San Jose Pinula"
+          "municipio": "San José Pinula"
         },
         {
           "codigo": 104,
-          "municipio": "San Jose del Golfo"
+          "municipio": "San José del Golfo"
         },
         {
           "codigo": 105,
@@ -386,11 +387,11 @@
         },
         {
           "codigo": 109,
-          "municipio": "San Pedro Sacatepequez"
+          "municipio": "San Pedro Sacatepéquez"
         },
         {
           "codigo": 110,
-          "municipio": "San Juan Sacatepequez"
+          "municipio": "San Juan Sacatepéquez"
         },
         {
           "codigo": 111,
@@ -406,7 +407,7 @@
         },
         {
           "codigo": 114,
-          "municipio": "Amatitlan"
+          "municipio": "Amatitlán"
         },
         {
           "codigo": 115,
@@ -448,7 +449,7 @@
         },
         {
           "codigo": 1305,
-          "municipio": "Nenton"
+          "municipio": "Nentón"
         },
         {
           "codigo": 1306,
@@ -464,7 +465,7 @@
         },
         {
           "codigo": 1309,
-          "municipio": "San Ildefonso Ixtahuacan"
+          "municipio": "San Ildefonso Ixtahuacán"
         },
         {
           "codigo": 1311,
@@ -476,7 +477,7 @@
         },
         {
           "codigo": 1313,
-          "municipio": "San Miguel Acatan"
+          "municipio": "San Miguel Acatán"
         },
         {
           "codigo": 1314,
@@ -484,11 +485,11 @@
         },
         {
           "codigo": 1315,
-          "municipio": "Todos Santos Cuchumatan"
+          "municipio": "Todos Santos Cuchumatán"
         },
         {
           "codigo": 1316,
-          "municipio": "San Juan Atitan"
+          "municipio": "San Juan Atitán"
         },
         {
           "codigo": 1317,
@@ -496,7 +497,7 @@
         },
         {
           "codigo": 1318,
-          "municipio": "San Mateo Ixtatan"
+          "municipio": "San Mateo Ixtatán"
         },
         {
           "codigo": 1319,
@@ -504,15 +505,15 @@
         },
         {
           "codigo": 1320,
-          "municipio": "San Sebastian Huehuetenango"
+          "municipio": "San Sebastián Huehuetenango"
         },
         {
           "codigo": 1321,
-          "municipio": "Tectitan"
+          "municipio": "Tectitán"
         },
         {
           "codigo": 1322,
-          "municipio": "Concepcion Huista"
+          "municipio": "Concepción Huista"
         },
         {
           "codigo": 1323,
@@ -524,7 +525,7 @@
         },
         {
           "codigo": 1325,
-          "municipio": "San Sebastian Coatan"
+          "municipio": "San Sebastián Coatán"
         },
         {
           "codigo": 1326,
@@ -532,7 +533,7 @@
         },
         {
           "codigo": 1327,
-          "municipio": "Aguacatan"
+          "municipio": "Aguacatán"
         },
         {
           "codigo": 1328,
@@ -588,7 +589,7 @@
         },
         {
           "codigo": 2104,
-          "municipio": "San Manuel Chaparron"
+          "municipio": "San Manuel Chaparrón"
         },
         {
           "codigo": 2105,
@@ -626,7 +627,7 @@
         },
         {
           "codigo": 2205,
-          "municipio": "Asuncion Mita"
+          "municipio": "Asunción Mita"
         },
         {
           "codigo": 2206,
@@ -646,7 +647,7 @@
         },
         {
           "codigo": 2210,
-          "municipio": "Zapotitlan"
+          "municipio": "Zapotitlán"
         },
         {
           "codigo": 2211,
@@ -670,7 +671,7 @@
         },
         {
           "codigo": 2216,
-          "municipio": "San Jose Acatempa"
+          "municipio": "San José Acatempa"
         },
         {
           "codigo": 2217,
@@ -679,7 +680,7 @@
       ]
     },
     {
-      "nombre": "Peten",
+      "nombre": "Petén",
       "codigo": "GT-PE",
       "municipios": [
         {
@@ -688,7 +689,7 @@
         },
         {
           "codigo": 1702,
-          "municipio": "San Jose"
+          "municipio": "San José"
         },
         {
           "codigo": 1703,
@@ -696,7 +697,7 @@
         },
         {
           "codigo": 1704,
-          "municipio": "San Andres"
+          "municipio": "San Andrés"
         },
         {
           "codigo": 1705,
@@ -712,7 +713,7 @@
         },
         {
           "codigo": 1710,
-          "municipio": "Sayaxche"
+          "municipio": "Sayaxché"
         },
         {
           "codigo": 1711,
@@ -720,7 +721,7 @@
         },
         {
           "codigo": 1712,
-          "municipio": "Poptun"
+          "municipio": "Poptún"
         },
         {
           "codigo": 1708,
@@ -738,11 +739,11 @@
       "municipios": [
         {
           "codigo": 906,
-          "municipio": "Cabrican"
+          "municipio": "Cabricán"
         },
         {
           "codigo": 907,
-          "municipio": "Cajola"
+          "municipio": "Cajolá"
         },
         {
           "codigo": 901,
@@ -750,7 +751,7 @@
         },
         {
           "codigo": 902,
-          "municipio": "Salcaja"
+          "municipio": "Salcajá"
         },
         {
           "codigo": 903,
@@ -770,7 +771,7 @@
         },
         {
           "codigo": 915,
-          "municipio": "Huitan"
+          "municipio": "Huitán"
         },
         {
           "codigo": 916,
@@ -782,7 +783,7 @@
         },
         {
           "codigo": 918,
-          "municipio": "San Francisco la Union"
+          "municipio": "San Francisco la Unión"
         },
         {
           "codigo": 919,
@@ -794,7 +795,7 @@
         },
         {
           "codigo": 921,
-          "municipio": "Genova"
+          "municipio": "Génova"
         },
         {
           "codigo": 922,
@@ -810,11 +811,11 @@
         },
         {
           "codigo": 908,
-          "municipio": "San Miguel Siguila"
+          "municipio": "San Miguel Siguilá"
         },
         {
           "codigo": 911,
-          "municipio": "Concepcion Chiquirichapa"
+          "municipio": "Concepción Chiquirichapa"
         },
         {
           "codigo": 909,
@@ -826,25 +827,26 @@
         },
         {
           "codigo": 1206,
-          "municipio": "Concepcion Tutuapa"
+          "municipio": "Concepción Tutuapa"
         },
         {
           "codigo": 912,
-          "municipio": "San Martin Sacatepequez"
+          "municipio": "San Martín Sacatepéquez"
         },
         {
           "codigo": 913,
           "municipio": "Almolonga"
-        }
+        },
+        "Cantel"
       ]
     },
     {
-      "nombre": "Quiche",
+      "nombre": "Quiché",
       "codigo": "GT-QC",
       "municipios": [
         {
           "codigo": 1420,
-          "municipio": "Ixcan"
+          "municipio": "Ixcán"
         },
         {
           "codigo": 1421,
@@ -852,15 +854,15 @@
         },
         {
           "codigo": 1419,
-          "municipio": "Chicaman"
+          "municipio": "Chicamán"
         },
         {
           "codigo": 1401,
-          "municipio": "Santa Cruz del Quiche"
+          "municipio": "Santa Cruz del Quiché"
         },
         {
           "codigo": 1402,
-          "municipio": "Chiche"
+          "municipio": "Chiché"
         },
         {
           "codigo": 1403,
@@ -884,7 +886,7 @@
         },
         {
           "codigo": 1410,
-          "municipio": "Cunen"
+          "municipio": "Cunén"
         },
         {
           "codigo": 1411,
@@ -900,11 +902,11 @@
         },
         {
           "codigo": 1414,
-          "municipio": "San Andres Sajcabaja"
+          "municipio": "San Andrés Sajcabajá"
         },
         {
           "codigo": 1415,
-          "municipio": "Uspantan"
+          "municipio": "Uspantán"
         },
         {
           "codigo": 1416,
@@ -912,11 +914,11 @@
         },
         {
           "codigo": 1417,
-          "municipio": "San Bartolome Jocotenango"
+          "municipio": "San Bartolomé Jocotenango"
         },
         {
           "codigo": 1418,
-          "municipio": "Canilla"
+          "municipio": "Canillá"
         },
         {
           "codigo": 1406,
@@ -924,7 +926,7 @@
         },
         {
           "codigo": 1407,
-          "municipio": "Patizite"
+          "municipio": "Patzité"
         }
       ]
     },
@@ -938,15 +940,15 @@
         },
         {
           "codigo": 1102,
-          "municipio": "San Sebastian"
+          "municipio": "San Sebastián"
         },
         {
           "codigo": 1103,
-          "municipio": "Santa Cruz Mulua"
+          "municipio": "Santa Cruz Muluá"
         },
         {
           "codigo": 1104,
-          "municipio": "San Martin Zapotitlan"
+          "municipio": "San Martín Zapotitlán"
         },
         {
           "codigo": 1105,
@@ -954,7 +956,7 @@
         },
         {
           "codigo": 1106,
-          "municipio": "San Andres Villa Seca"
+          "municipio": "San Andrés Villa Seca"
         },
         {
           "codigo": 1107,
@@ -971,12 +973,12 @@
       ]
     },
     {
-      "nombre": "Sacatepequez",
+      "nombre": "Sacatepéquez",
       "codigo": "GT-SA",
       "municipios": [
         {
           "codigo": 313,
-          "municipio": "San Miguel Duenas"
+          "municipio": "San Miguel Dueñas"
         },
         {
           "codigo": 314,
@@ -1004,11 +1006,11 @@
         },
         {
           "codigo": 307,
-          "municipio": "San Bartolome Milpas Altas"
+          "municipio": "San Bartolomé Milpas Altas"
         },
         {
           "codigo": 308,
-          "municipio": "San Lucas Sacatepequez"
+          "municipio": "San Lucas Sacatepéquez"
         },
         {
           "codigo": 315,
@@ -1020,11 +1022,11 @@
         },
         {
           "codigo": 309,
-          "municipio": "Santa Lucia Milpas Altas"
+          "municipio": "Santa Lucía Milpas Altas"
         },
         {
           "codigo": 311,
-          "municipio": "Santa Maria de Jesus"
+          "municipio": "Santa María de Jesús"
         },
         {
           "codigo": 304,
@@ -1036,7 +1038,7 @@
         },
         {
           "codigo": 306,
-          "municipio": "Santiago Sacatepequez"
+          "municipio": "Santiago Sacatepéquez"
         }
       ]
     },
@@ -1046,7 +1048,7 @@
       "municipios": [
         {
           "codigo": 1227,
-          "municipio": "Rio Blanco"
+          "municipio": "Río Blanco"
         },
         {
           "codigo": 1330,
@@ -1058,7 +1060,7 @@
         },
         {
           "codigo": 1224,
-          "municipio": "San Jose Ojetenam"
+          "municipio": "San José Ojetenam"
         },
         {
           "codigo": 1225,
@@ -1078,11 +1080,11 @@
         },
         {
           "codigo": 1202,
-          "municipio": "San Pedro Sacatepequez"
+          "municipio": "San Pedro Sacatepéquez"
         },
         {
           "codigo": 1203,
-          "municipio": "San Antonio Sacatepequez"
+          "municipio": "San Antonio Sacatepéquez"
         },
         {
           "codigo": 1204,
@@ -1090,11 +1092,11 @@
         },
         {
           "codigo": 1205,
-          "municipio": "San Miguel Ixtahuacan"
+          "municipio": "San Miguel Ixtahuacán"
         },
         {
           "codigo": 1207,
-          "municipio": "Tacana"
+          "municipio": "Tacaná"
         },
         {
           "codigo": 1208,
@@ -1122,11 +1124,11 @@
         },
         {
           "codigo": 1214,
-          "municipio": "San Jose el Rodeo"
+          "municipio": "San José el Rodeo"
         },
         {
           "codigo": 1215,
-          "municipio": "Malacatan"
+          "municipio": "Malacatán"
         },
         {
           "codigo": 1216,
@@ -1150,11 +1152,10 @@
         },
         {
           "codigo": 1223,
-          "municipio": "Ixchiguan"
+          "municipio": "Ixchiguán"
         }
       ]
     },
-
     {
       "nombre": "Santa Rosa",
       "codigo": "GT-SR",
@@ -1181,7 +1182,7 @@
         },
         {
           "codigo": 611,
-          "municipio": "Guazacapan"
+          "municipio": "Guazacapán"
         },
         {
           "codigo": 614,
@@ -1197,7 +1198,7 @@
         },
         {
           "codigo": 613,
-          "municipio": "Pueblo Nuevo Vinas"
+          "municipio": "Pueblo Nuevo Viñas"
         },
         {
           "codigo": 607,
@@ -1209,7 +1210,7 @@
         },
         {
           "codigo": 610,
-          "municipio": "Santa Maria Ixhuatan"
+          "municipio": "Santa María Ixhuatán"
         },
         {
           "codigo": 612,
@@ -1218,44 +1219,44 @@
       ]
     },
     {
-      "nombre": "Solola",
+      "nombre": "Sololá",
       "codigo": "GT-SO",
       "municipios": [
         {
           "codigo": 719,
-          "municipio": "Santiago Atitlan"
+          "municipio": "Santiago Atitlán"
         },
         {
           "codigo": 701,
-          "municipio": "Solola"
+          "municipio": "Sololá"
         },
         {
           "codigo": 702,
-          "municipio": "San Jose Chacaya"
+          "municipio": "San José Chacayá"
         },
         {
           "codigo": 713,
-          "municipio": "San Lucas Toliman"
+          "municipio": "San Lucas Tolimán"
         },
         {
           "codigo": 708,
-          "municipio": "Concepcion"
+          "municipio": "Concepción"
         },
         {
           "codigo": 703,
-          "municipio": "Santa Maria Visitacion"
+          "municipio": "Santa María Visitación"
         },
         {
           "codigo": 704,
-          "municipio": "Santa Lucia Utatlan"
+          "municipio": "Santa Lucía Utatlán"
         },
         {
           "codigo": 705,
-          "municipio": "Nahuala"
+          "municipio": "Nahualá"
         },
         {
           "codigo": 706,
-          "municipio": "Santa Catarina Ixtahuacan"
+          "municipio": "Santa Catarina Ixtahuacán"
         },
         {
           "codigo": 707,
@@ -1263,7 +1264,7 @@
         },
         {
           "codigo": 709,
-          "municipio": "San Andres Semetabaj"
+          "municipio": "San Andrés Semetabaj"
         },
         {
           "codigo": 710,
@@ -1271,11 +1272,11 @@
         },
         {
           "codigo": 711,
-          "municipio": "Santa Catarina Palopo"
+          "municipio": "Santa Catarina Palopó"
         },
         {
           "codigo": 712,
-          "municipio": "San Antonio Palopo"
+          "municipio": "San Antonio Palopó"
         },
         {
           "codigo": 717,
@@ -1300,7 +1301,7 @@
       ]
     },
     {
-      "nombre": "Suchitepequez",
+      "nombre": "Suchitepéquez",
       "codigo": "GT-SU",
       "municipios": [
         {
@@ -1329,11 +1330,11 @@
         },
         {
           "codigo": 1010,
-          "municipio": "San Antonio Suchitepequez"
+          "municipio": "San Antonio Suchitepéquez"
         },
         {
           "codigo": 1003,
-          "municipio": "San Francisco Zapotitlan"
+          "municipio": "San Francisco Zapotitlán"
         },
         {
           "codigo": 1004,
@@ -1345,11 +1346,11 @@
         },
         {
           "codigo": 1005,
-          "municipio": "San Jose el Idolo"
+          "municipio": "San José el Ídolo"
         },
         {
           "codigo": 1021,
-          "municipio": "San Jose La Maquina"
+          "municipio": "San José La Máquina"
         },
         {
           "codigo": 1016,
@@ -1361,7 +1362,7 @@
         },
         {
           "codigo": 1011,
-          "municipio": "San Miguel Panan"
+          "municipio": "San Miguel Panán"
         },
         {
           "codigo": 1009,
@@ -1369,15 +1370,15 @@
         },
         {
           "codigo": 1015,
-          "municipio": "Santa Barbara"
+          "municipio": "Santa Bárbara"
         },
         {
           "codigo": 1006,
-          "municipio": "Santo Domingo Suchitepequez"
+          "municipio": "Santo Domingo Suchitepéquez"
         },
         {
           "codigo": 1017,
-          "municipio": "Santo Tomas la Union"
+          "municipio": "Santo Tomas la Unión"
         },
         {
           "codigo": 1018,
@@ -1385,7 +1386,7 @@
         },
         {
           "codigo": 1020,
-          "municipio": "Rio Bravo"
+          "municipio": "Río Bravo"
         },
         {
           "codigo": 1019,
@@ -1394,16 +1395,16 @@
       ]
     },
     {
-      "nombre": "Totonicapan",
+      "nombre": "Totonicapán",
       "codigo": "GT-TO",
       "municipios": [
         {
           "codigo": 801,
-          "municipio": "Totonicapan"
+          "municipio": "Totonicapán"
         },
         {
           "codigo": 802,
-          "municipio": "San Cristobal Totonicapan"
+          "municipio": "San Cristóbal Totonicapán"
         },
         {
           "codigo": 803,
@@ -1411,7 +1412,7 @@
         },
         {
           "codigo": 807,
-          "municipio": "Santa Lucia la Reforma"
+          "municipio": "Santa Lucía la Reforma"
         },
         {
           "codigo": 808,
@@ -1419,7 +1420,7 @@
         },
         {
           "codigo": 804,
-          "municipio": "San Andres Xecul"
+          "municipio": "San Andrés Xecul"
         },
         {
           "codigo": 805,
@@ -1427,7 +1428,7 @@
         },
         {
           "codigo": 806,
-          "municipio": "Santa Maria Chiquimula"
+          "municipio": "Santa María Chiquimula"
         }
       ]
     },
@@ -1445,7 +1446,7 @@
         },
         {
           "codigo": 1904,
-          "municipio": "Gualan"
+          "municipio": "Gualán"
         },
         {
           "codigo": 1908,
@@ -1453,11 +1454,11 @@
         },
         {
           "codigo": 1909,
-          "municipio": "La Union"
+          "municipio": "La Unión"
         },
         {
           "codigo": 1910,
-          "municipio": "Huite"
+          "municipio": "Huité"
         },
         {
           "codigo": 1911,
@@ -1465,11 +1466,11 @@
         },
         {
           "codigo": 1905,
-          "municipio": "Teculutan"
+          "municipio": "Teculután"
         },
         {
           "codigo": 1906,
-          "municipio": "Usumatlan"
+          "municipio": "Usumatlán"
         }
       ]
     }
