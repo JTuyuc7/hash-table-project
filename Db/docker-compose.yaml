@@ -27,17 +27,6 @@ services:
     ports:
       - "8081:80"
 
-#  sql_generator:
-#    image: python:3.8
-#    container_name: sql_generator
-#    volumes:
-#      - ./generate_sql.py:/generate_sql.py
-#      - ./content.json:/content.json
-#      - ./init.sql:/init.sql
-#    command: ["python", "/generate_sql.py"]
-#    depends_on:
-#      - hash_container_db
-
 volumes:
   hash_volume_data:
     #external: true
