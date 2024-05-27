@@ -9,7 +9,7 @@ There is a `content.json` file at the root of this directory where all the infor
 If you are running this the first time, follow the instructions
 
 * You'll need to create a python `env`virtual environment so you can run the next step
-* There is a ```generate_sql.py``` file that you have to execute first, once the file is executed, it will create a `init.sql` file that will be used later.
+* There is a ```generate_sql.py``` file that you have to execute first, once the file is executed, it will create a `init_old.sql` file that will be used later.
 * There is a `compose-variables.templage.env` that you have to rename to `compose-variables.env` inside the file you'll have to provide the following info
     ```
   MYSQL_ROOT_PASSWORD=yourpass  <- add your password to connect to your mysql

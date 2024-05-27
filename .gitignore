@@ -32,4 +32,10 @@ bin/
 /Db/copia.json
 /Db/myenv
 /Db/init.sql
+/Db/init_old.sql
 .env
+/Db/Content/content_ca.json
+/Db/Content/countriesIso.json
+/Db/Content/countriesIso_ca.json
+/Db/Content/normalize_content.json
+/Db/Content/prov_data_ca.json
