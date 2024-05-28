@@ -1,4 +1,5 @@
 package Main;
+import Countries.Countries;
 import Departaments.Departaments;
 
 import java.sql.SQLException;
@@ -8,12 +9,13 @@ public class Main {
     public static void main(String[] args) throws SQLException {
         Scanner scanner = new Scanner(System.in);
         Departaments departaments = new Departaments();
+        Countries countries = new Countries();
         boolean exit = false;
 
         while (!exit) {
             // Display the menu
             System.out.println("Menu Principal");
-//            System.out.println("1. Cargar datos ISO");
+            System.out.println("1. Mostrar informacion (Solo paises)");
             System.out.println("2. Mostrar toda la informacion");
             System.out.println("3. Realizar una busqueda por departamento");
             System.out.println("4. Realizar una busqueda por municipio");
@@ -27,9 +29,9 @@ public class Main {
 
             // Handle user's choice
             switch (choice) {
-//                case 1:
-//                    System.out.println("Cargar datos ISO a tabla de hash");
-//                    break;
+                case 1:
+                    countries.displayContent(scanner);
+                    break;
                 case 2:
                     departaments.showDepData();
                     break;
