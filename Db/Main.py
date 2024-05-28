@@ -43,8 +43,11 @@ class MainApp:
             print("CA data created...")
 
     def generate_sql_script(self):
+        print("generating sql script ....")
         generate_script = GenerateScript.GenerateScript()
         generate_script.new_script_imp()
+        print("data genrated")
+
 
 main_app = MainApp()
 ## ! Get all the ISO content from all the world

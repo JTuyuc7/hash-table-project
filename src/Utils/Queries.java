@@ -11,4 +11,6 @@ public class Queries {
             "JOIN provinces p ON m.province_id = p.id\n" +
             "JOIN countries c ON p.country_id = c.id\n" +
             "WHERE p.prov = 'Chimaltenango'";
+
+    public static final String GET_ALL_COUNTRIES_ONLY = "SELECT c.id, c.name, c.iso_code, c.official_name, COUNT(DISTINCT p.id) AS province_count, COUNT(DISTINCT m.id) AS municipality_count FROM countries c LEFT JOIN provinces p ON c.id = p.country_id LEFT JOIN municipalities m ON p.id = m.province_id GROUP BY c.id, c.name, c.iso_code, c.official_name ORDER BY c.iso_code;";
 }

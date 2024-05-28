@@ -31,6 +31,7 @@ bin/
 /Db/compose-variables.env
 /Db/copia.json
 /Db/myenv
+/Db/init-11.sql
 /Db/init.sql
 /Db/init_old.sql
 .env

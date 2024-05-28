@@ -11,8 +11,13 @@ public class Departaments {
 
     DbConnection connection = new DbConnection();
     ResultSet departamentsData = null;
-    Queries queries = new Queries();
+    Queries queries;
     FormatMessage formatMessage = new FormatMessage();
+
+    public Departaments() {
+        queries = new Queries();
+    }
+
     public void showDepData() throws SQLException {
         departamentsData = connection.readFromDb(queries.ALL_DATA);
 
@@ -26,7 +31,7 @@ public class Departaments {
 //                System.out.println(departamentsData.getString("municipio"));
                 formatMessage.bodyBox(codigo, municipio, nombre, codigo_dep);
             }
-            formatMessage.footerEndBox();
+            formatMessage.footerEndBox(60);
         }else {
             System.out.println("No data found");
         }
