@@ -11,11 +11,11 @@ class MainApp:
 
     def get_all_world_data(self):
 
-        if not self.utils.has_already_content('./Content', 'countriesIso.json'):
-            print('Generating ISO countries info')
-            countries = Countries.GetCountries()
-            countries.generate_codes()
-            print('Generated successfully')
+        # if not self.utils.has_already_content('./Content', 'countriesIso.json'):
+        #     print('Generating ISO countries info')
+        #     countries = Countries.GetCountries()
+        #     countries.generate_codes()
+        #     print('Generated successfully')
 
         if not self.utils.has_already_content('./Content', 'content.json'):
             print('Creating provinces data')

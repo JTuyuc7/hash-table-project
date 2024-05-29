@@ -2,18 +2,43 @@ import json
 import requests
 from unidecode import unidecode
 import os
+import hashlib
+import string
 
+BASE62 = string.digits + string.ascii_letters
 
 class CentralAmericaData:
     def __init__(self):
         pass
 
     @staticmethod
+    def base62_encode(num):
+        """Encode a number in Base62 (0-9, A-Z, a-z)."""
+        if num == 0:
+            return BASE62[0]
+        arr = []
+        base = len(BASE62)
+        while num:
+            num, rem = divmod(num, base)
+            arr.append(BASE62[rem])
+        arr.reverse()
+        return ''.join(arr)
+
+    @staticmethod
     def get_hash_code(departament):
-        hash_code = 0
-        for letter in departament:
-            hash_code += ord(letter) + 256
-        return hash_code
+        # Create a SHA-256 hash of the input
+        sha = hashlib.sha256()
+        sha.update(departament.encode('utf-8'))
+        hash_code = int(sha.hexdigest(), 16)
+
+        # Convert the hash code to base62
+        base62_hash = CentralAmericaData.base62_encode(hash_code)
+
+        # Ensure the hash code is 10 characters long
+        if len(base62_hash) > 10:
+            return base62_hash[:10]
+        else:
+            return base62_hash.zfill(10)
 
     def get_converted_mun(self, municipalities):
         converted_mun = []
@@ -33,7 +58,7 @@ class CentralAmericaData:
             return None
 
     def get_municipalities(self, department_geoname_id):
-        url = f'http://api.geonames.org/childrenJSON?geonameId={department_geoname_id}&maxRows=5&username=jtuyuc17'
+        url = f'http://api.geonames.org/childrenJSON?geonameId={department_geoname_id}&maxRows=10&username=jtuyuc17'
         response = requests.get(url)
         data = response.json()
         municipalities = [place['name'] for place in data['geonames']]

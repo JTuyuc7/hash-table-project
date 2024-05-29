@@ -16,6 +16,7 @@ public class Main {
 
         while (!exit) {
             // Display the menu
+            System.out.println("------------------------------------------------------------------------------");
             System.out.println("Menu Principal");
             System.out.println("1. Mostrar informacion (Solo paises)");
             System.out.println("2. Mostrar toda la informacion");
