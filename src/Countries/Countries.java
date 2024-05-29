@@ -1,15 +1,19 @@
 package Countries;
 
 import DbConnection.DbConnection;
+import Reports.Report;
 import Utils.FormatMessage;
 import Utils.Queries;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import Utils.UtilsMethod;
 
 
 public class Countries {
@@ -17,6 +21,9 @@ public class Countries {
     ResultSet countries;
     Map<String, Country> countryMap;
     FormatMessage formatMessage = new FormatMessage();
+    Map<String, String> data = new LinkedHashMap<>();
+
+    UtilsMethod utils = new UtilsMethod();
     public Countries () {
         db = new DbConnection();
         countryMap = new HashMap<>();
@@ -56,9 +63,11 @@ public class Countries {
         }
     }
 
+
     public void searchCountryByCode(String isoCode){
+        Report report = new Report(2, "ciudades" );
+        long startTime = System.nanoTime();
         Country country = countryMap.get(isoCode);
-        System.out.println(country + "country" + isoCode.toUpperCase());
         if(country == null){
             System.out.println("Pais con el codigo ISO " + isoCode.toUpperCase() + " no encontrado");
         }else {
@@ -66,9 +75,22 @@ public class Countries {
             formatMessage.bodyCountryBox(country.isoCode, country.name, country.officialName, country.province_count, country.municipality_count);
             formatMessage.footerEndBox(160);
         }
+        long endTime = System.nanoTime();
+        String timeFormatted = utils.formatTime(startTime, endTime);
+        String timeCrated = utils.getFomattedDate();
+        assert country != null;
+        data.put("Resumen creado", timeCrated);
+        data.put("Tiempo que tomo", timeFormatted);
+        data.put("Codigo buscado", country.isoCode);
+        data.put("Nombre Pais buscado", country.name);
+        data.put("Provincias/departamentos", String.valueOf(country.province_count));
+        data.put("Municpios", String.valueOf(country.municipality_count));
+        report.createReport(data);
     }
 
     public void loadCountriesInfo() throws SQLException {
+        Report report = new Report(1, "ciudades" );
+        long startTime = System.nanoTime();
         countries = getDataFromDb();
         while (countries.next()) {
             String name = countries.getString("name");
@@ -79,6 +101,15 @@ public class Countries {
             Country country = new Country (name, isoCode, officialName, prov_count, mun_count);
             countryMap.put(isoCode, country);
         }
+        long endTime = System.nanoTime(); // Measure end time
+
+        String timeFormatted = utils.formatTime(startTime, endTime);
+        String timeCrated = utils.getFomattedDate();
+        assert countryMap != null;
+        data.put("Tipo resumen", "Carga datos ciudades");
+        data.put("Resumen creado", timeCrated);
+        data.put("Tiempo que tomo", timeFormatted);
+        report.createReport(data);
     }
 
     public void showCountriesInfo()  {
