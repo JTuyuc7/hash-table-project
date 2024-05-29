@@ -1,8 +1,11 @@
+import hashlib
+import string
 import requests
 import json
 from unidecode import unidecode
 import os
 
+BASE62 = string.digits + string.ascii_letters
 
 class Provinces:
     def __init__(self, file_content_name, file_to_save_name, prov=""):
@@ -10,13 +13,34 @@ class Provinces:
         self.file_content_name = file_content_name
         self.file_to_save_name = file_to_save_name
 
+    @staticmethod
+    def base62_encode(num):
+        """Encode a number in Base62 (0-9, A-Z, a-z)."""
+        if num == 0:
+            return BASE62[0]
+        arr = []
+        base = len(BASE62)
+        while num:
+            num, rem = divmod(num, base)
+            arr.append(BASE62[rem])
+        arr.reverse()
+        return ''.join(arr)
 
     @staticmethod
     def get_hash_code(departament):
-        hash_code = 0
-        for letter in departament:
-            hash_code += ord(letter) + 256
-        return hash_code
+        # Create a SHA-256 hash of the input
+        sha = hashlib.sha256()
+        sha.update(departament.encode('utf-8'))
+        hash_code = int(sha.hexdigest(), 16)
+
+        # Convert the hash code to base62
+        base62_hash = Provinces.base62_encode(hash_code)
+
+        # Ensure the hash code is 10 characters long
+        if len(base62_hash) > 10:
+            return base62_hash[:10]
+        else:
+            return base62_hash.zfill(10)
 
     def get_converted_prov(self, provinces):
         converted_dep = []
@@ -59,4 +83,3 @@ class Provinces:
         filepath = os.path.join('./Content',  self.file_to_save_name + '.json')  # Build full path
         with open(filepath, 'w', encoding='utf-8') as json_file:
             json.dump({"countries": all_countries_with_prov}, json_file, ensure_ascii=False, indent=2)
-

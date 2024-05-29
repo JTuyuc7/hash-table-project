@@ -9,10 +9,7 @@ import Utils.UtilsMethod;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class CompleteData {
     DbConnection db;
@@ -89,6 +86,7 @@ public class CompleteData {
         Report report = new Report(2, "hash_table" );
         long startTime = System.nanoTime();
         allInfo = getDataFromDb();
+        int total_data=0, unique_data = 0;
         while (allInfo.next()){
             String country_name = allInfo.getString("country_name");
             String country_iso_code = allInfo.getString("iso_code");
@@ -98,7 +96,19 @@ public class CompleteData {
             String mun_iso_code = allInfo.getString("mun_iso");
             String mun_name = allInfo.getString("municipality_name");
             FullData all_iso_info = new FullData(country_iso_code, country_name, country_official_name, prov_iso_code, prov_name, mun_iso_code, mun_name);
+            total_data += 1;
+
+            if (mun_iso_code == null) {
+//                System.out.println("Warning: null mun_iso_code for country: " + country_name + ", province: " + prov_name);
+                mun_iso_code = UUID.randomUUID() + UUID.randomUUID().toString();
+            }
             CompositeKey key = new CompositeKey(country_iso_code, prov_iso_code, mun_iso_code);
+//            System.out.println(key + "key*-*-*-");
+            if (completeHashMap.containsKey(key)) {
+                System.out.println("Duplicate key detected: " + key);
+            } else {
+                unique_data += 1;
+            }
             completeHashMap.put(key, all_iso_info);
         }
         long endTime = System.nanoTime(); // Measure end time
@@ -110,6 +120,9 @@ public class CompleteData {
         data_report.put("Resumen creado", timeCrated);
         data_report.put("Tiempo que tomo", timeFormatted);
         report.createReport(data_report);
+
+//        System.out.println(total_data + " total data from DB");
+//        System.out.println(unique_data + " unique entries in HashMap");
     }
 
     public void showAllContentInfo() throws SQLException {
@@ -225,6 +238,7 @@ public class CompleteData {
             data_report.put("Nombre Pais buscado", firstMatch.country_name);
             data_report.put("Nombre de la provincia/departamento", firstMatch.prov_name);
             data_report.put("Nombre del municipio", firstMatch.mun_name);
+            data_report.put("Mun ISO", firstMatch.mun_iso_code);
             report.createReport(data_report);
         }
     }
