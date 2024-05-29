@@ -1,4 +1,5 @@
 package Main;
+import AllData.CompleteData;
 import Countries.Countries;
 import Departaments.Departaments;
 
@@ -10,6 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Departaments departaments = new Departaments();
         Countries countries = new Countries();
+        CompleteData allData = new CompleteData();
         boolean exit = false;
 
         while (!exit) {
@@ -17,34 +19,21 @@ public class Main {
             System.out.println("Menu Principal");
             System.out.println("1. Mostrar informacion (Solo paises)");
             System.out.println("2. Mostrar toda la informacion");
-            System.out.println("3. Realizar una busqueda por departamento");
-            System.out.println("4. Realizar una busqueda por municipio");
-            System.out.println("5. Realizar busqueda por codigo especifico");
-            System.out.println("6. Salir");
+            System.out.println("3. Salir");
 
             // Prompt user for choice
             System.out.println("Ingrese su opcion: ");
             System.out.println("------------------------------------------------------------------------------");
             int choice = scanner.nextInt();
 
-            // Handle user's choice
             switch (choice) {
                 case 1:
                     countries.displayContent(scanner);
                     break;
                 case 2:
-                    departaments.showDepData();
+                    allData.displayContent(scanner);
                     break;
                 case 3:
-                    System.out.println("Busqueda por departamento");
-                    break;
-                case 4:
-                    System.out.println("Busqueda por municipio");
-                    break;
-                case 5:
-                    System.out.println("Busqueda por codigo especifico");
-                    break;
-                case 6:
                     System.out.println("Cerrando sesion...");
                     exit = true; // Set exit flag to true
                     break;

@@ -46,6 +46,27 @@ public class FormatMessage {
         formatMsg(" " + mun_count, 12, true);
     }
 
+    public void headerAllDataBox(){
+        boxFormating("_", 210);
+        formatMsg("| Codigo ISO", 15, false);
+        formatMsg(" Nombre Pais",54, false);
+//        formatMsg(" Nombre Oficial",60, false);
+        formatMsg(" Prov. ISO",15, false);
+        formatMsg(" Prov. Nombre", 50, false);
+        formatMsg(" Mun. ISO", 15, false);
+        formatMsg(" Mun. Nombre", 55, true);
+        boxFormating("_", 210);
+    }
+
+    public void bodyAllDataHashInfo(String iso_code, String country, String prov_iso, String prov_name, String mun_iso, String mun_name){
+        formatMsg("| " + iso_code, 15, false);
+        formatMsg(" "+ country,54, false);
+        formatMsg(" "+ prov_iso,15, false);
+        formatMsg(" " + prov_name, 50, false);
+        formatMsg(" " + mun_iso, 15, false);
+        formatMsg(" " + mun_name, 55, true);
+    }
+
     public void headerBox(){
         boxFormating("_", 130);
         formatMsg("| Codigo Municipio", 32, false);
